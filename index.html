@@ -1,10 +1,38 @@
+<!DOCTYPE html>
 <html>
   <head>
+	<title>0 or O</title>
 	<link rel="icon" type="img/jpg" href="favicon.jpg">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(e) {
+		$("#mainForm").on('input', function(){
+			var inputVal = $("#zeroOrO").val();
+			var answerBox = document.getElementById("answer");
+			if (inputVal == "O") {
+			  answerBox.value = "Capital O";
+			} else if (inputVal == "0"){
+			  answerBox.value = "Zero";
+			} else if (inputVal == ""){
+			  answerBox.value = "";
+			}else {
+			  answerBox.value = "Neither dumbass";
+			}
+		});
+	  });
+	</script>
   </head>
-
 <body>
-
+  <div>
+  <h1> Zero or Capital O</h1>
+  <div>Copy and paste your oval into this box<span>
+  <form autocomplete="off" id="mainForm">
+	<input type="text" name="zeroOrO" id="zeroOrO" />
+	<div>
+	<span>Answer:<input id="answer" type="text" readonly/></span>
+	</div>
+  </form>
+  </div>
 
 </body>
 

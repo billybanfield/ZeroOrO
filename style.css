@@ -34,7 +34,7 @@ h2 {
   background-color: red;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
-font-size:31px;
+  font-size:31px;
     border: 2px solid;
 }
 
@@ -47,9 +47,10 @@ font-size:31px;
 #zeroOrO {
 	  background-color: grey;
       border: 2px solid;
-	  width: 98%;
+	  width: 99%;
 	  height: 10%;
 	  font-size: 63px;
+	  box-sizing: border-box;
 }
 
 .main{

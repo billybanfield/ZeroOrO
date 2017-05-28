@@ -23,15 +23,10 @@ h2 {
    font-family: Helvetica;
    font-size: 47px;
    letter-spacing: -0.035em;
-   background-color: red;
-}
-#answer_section{
-  background-color: green;
 }
 
 #answer{
   width: 240px;
-  background-color: red;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
   font-size:31px;
@@ -45,7 +40,6 @@ h2 {
 
 
 #zeroOrO {
-	  background-color: grey;
       border: 2px solid;
 	  width: 99%;
 	  height: 10%;
@@ -58,7 +52,6 @@ h2 {
 }
 
 #wrap{
-  background-color: yellow;
   width: 682px;
   margin: 0 auto;
 }

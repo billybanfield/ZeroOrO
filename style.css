@@ -3,9 +3,9 @@
 h1 {
    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 500;
-	font-size: 63px;
+	font-size: 83px;
 	letter-spacing: -0.035em;
-	margin-top: 5px;
+	margin-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -15,32 +15,32 @@ h2 {
    margin-top:0px;
    padding-top:0px;
     font-weight: 300;
-	font-size: 24px;
+	font-size: 31px;
 	letter-spacing: -0.035em;
 }
 
 #answer_title {
    font-family: Helvetica;
-   font-size: 35px;
-	letter-spacing: -0.035em;
-	  background-color: red;
+   font-size: 47px;
+   letter-spacing: -0.035em;
+   background-color: red;
 }
 #answer_section{
   background-color: green;
 }
 
 #answer{
-	  background-color: red;
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-size: 26px;
-    font-weight: 300;
+  width: 240px;
+  background-color: red;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+font-size:31px;
     border: 2px solid;
 }
 
 #answer_box{
   text-align: right;
   margin-top:10%;
-
 }
 
 
@@ -58,7 +58,7 @@ h2 {
 
 #wrap{
   background-color: yellow;
-  width: 512px;
+  width: 682px;
   margin: 0 auto;
 }
 

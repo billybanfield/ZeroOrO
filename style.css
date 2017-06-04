@@ -4,7 +4,7 @@ h1 {
    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 500;
 	font-size: 83px;
-	letter-spacing: -0.035em;
+	letter-spacing: -0.022em;
 	margin-top: 10px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -16,14 +16,15 @@ h2 {
    padding-top:0px;
     font-weight: 300;
 	font-size: 31px;
-	letter-spacing: -0.035em;
+	letter-spacing: -0.025em;
 }
 
 #answer_title {
    font-family: Helvetica;
    font-size: 47px;
-   letter-spacing: -0.035em;
+   letter-spacing: -0.022em;
 }
+
 
 #answer{
   width: 240px;
@@ -31,6 +32,7 @@ h2 {
    font-weight: 300;
   font-size:31px;
     border: 2px solid;
+	padding-left: 8px;
 }
 
 #answer_box{
@@ -45,6 +47,9 @@ h2 {
 	  height: 10%;
 	  font-size: 63px;
 	  box-sizing: border-box;
+	  padding-left: 10px;
+	  padding-top: 4px;
+	  padding-bottom: 5px;
 }
 
 .main{
@@ -52,7 +57,7 @@ h2 {
 }
 
 #wrap{
-  width: 682px;
+  width: 693px;
   margin: 0 auto;
 }
 
